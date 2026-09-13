@@ -1,8 +1,17 @@
 /* Reset */
 * {
   margin:0;
-  paddinig:0;
+  padding:0;
   box-sizing: border-box;
+}
+
+/*Replace margins*/
+header, p, h1, h2, blockquote {
+  margin-bottom: 1.5rem;
+}
+
+h1:has(+ h2){
+  margin-bottom: 3rem;
 }
 
 /* Header */
@@ -73,9 +82,7 @@ body {
   padding: 20px;
 }
 
-h1 {
-  text-align: center;
-}
+
 
 .patriotic-title {
   text-align: center;
